@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .origin {
+        width: 210px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 40px;
+        float: left;
+    }
+
+    .scalex:hover{
+        transform: scaleX(1.2);
+    }
+
+    .scaley:hover{
+        transform: scaleY(1.2);   
+    }
+
+    .scale:hover{
+        transform: scale(0.7)
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 5px;
+        transition: 1s;
+    }
+
+    hr{clear: both;}
+
+    .box:hover{
+        background-color: yellow;
+    }
+
+</style>
+
+<body>
+    <div class="origin">
+        <div class="scalex">
+            <img src="img/fruit.jpg">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="scaley">
+            <img src="img/fruit.jpg">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="scale">
+            <img src="img/fruit.jpg">
+        </div>
+    </div>
+<hr>
+    <div class="box">
+
+    </div>
+</body>
+</html>
